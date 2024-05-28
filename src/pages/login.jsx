@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { authimg } from "../assets/images/imagelinks"
 
 const Login = () => {
@@ -168,7 +169,7 @@ const Login = () => {
                     <p
                         className='text-underline text-[1.1rem] mb-6 font-semibold text-[#3A3A3C]'
                     >Don&#39;t have an account? &nbsp;
-                        <a href="/register" className='text-[#058B42]'>Register here</a>
+                        <Link to="/register" className='text-[#058B42]'>Register here</Link>
                     </p>
                 </div>
 
