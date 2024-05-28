@@ -9,7 +9,7 @@ import { useEffect, useState } from 'react';
 const DesktopHero = () => {
 
     const Images = [
-        "https://res.cloudinary.com/dbnxbly1r/image/upload/v1716363258/hyggex/MacBook_Pro_16__-_1_r4rl8u.svg",
+        "https://res.cloudinary.com/dbnxbly1r/image/upload/v1716882782/hyggex/yeksgreen/hero-slide1_hnobiy.png",
         "https://res.cloudinary.com/dbnxbly1r/image/upload/v1716402736/hyggex/yeksgreen/slide2_gmpcgc.svg",
         "https://res.cloudinary.com/dbnxbly1r/image/upload/v1716375549/hyggex/yeksgreen/slide3_zs5g5x.svg",
         "https://res.cloudinary.com/dbnxbly1r/image/upload/v1716402876/hyggex/yeksgreen/slide4_gqwo6d.svg",
