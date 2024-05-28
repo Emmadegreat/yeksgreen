@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans";
+}
+
+.swiper-pagination-bullet {
+  background: rgb(255, 255, 255) !important;
+  width: 13px !important;
+  height: 13px !important;
+  border: 2px solid #000;
+}
+
+.swiper-pagination-bullet-active {
+  background: rgb(35, 34, 34) !important;
+}
+
+.search-input{
+  border: 1px solid #fff;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px
+}
+
+.submit-btn{
+  border-width: 0rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px
+}
+
+.search-input1{
+  border: 1px solid#04471C;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px
+}
+
+.submit-btn1{
+  border-width: 0rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px
+}
+
+.featured-recipes{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.test{
+  /*border: 2px solid red;*/
+  width: 45%;
+  margin: 3rem auto !important;
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
+}
+
+.test input{
+  width: 90%;
+  border: 1px solid #fff;
+  background: transparent;
+  padding: 8px;
+  height: 44px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px
+}
+
+.test input:focus{
+  background: transparent !important;
+  border-width: 1px solid #fff;
+}
+
+.test button{
+  border-width: 0rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 64px;
+  height: 44px;
+}
+
+
+.video-section {
+  background-image: url('../public/8a278fa72b48cc7f6f54bb16ff3134f5.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+
+@media screen and (max-width:767px) {
+  .featured-recipes{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding: 5px;
+  }
+
+  .test{
+  /*border: 2px solid red;*/
+    width: 90%;
+  }
+
+  .test input{
+    width: 90%;
+    border: 2px solid #04471C;
+    background: #fff;
+  }
+
+  .test button{
+    border-width: 0rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #04471C;
+  }
+  .video-section {
+    background-image: url('../8a278fa72b48cc7f6f54bb16ff3134f5.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:200px;
+    width: 100%;
+  }
+
+}
+
+
