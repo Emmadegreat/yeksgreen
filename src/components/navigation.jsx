@@ -36,7 +36,7 @@ const Navigation = () => {
                 </div>
 
                 <ul className="hidden md:flex items-center space-around  font-[bold]">
-                    <li className="px-2 text-[1.3rem]"><a href="/about">About us</a></li>
+                    <li className="px-2 text-[1.3rem]"><a href="about">About us</a></li>
                     <li className="px-2 text-[1.3rem] cursor-pointer" onClick={Showdropdown}>Recipes</li>
                     <li className="px-2 text-[1.3rem] font-[work-sans]"><a href="/blog">Blog</a></li>
 

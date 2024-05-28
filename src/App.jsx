@@ -14,7 +14,8 @@ function App() {
   return (
     <>
       <Navigation/>
-      <RouterProvider router={Router} />
+      <RouterProvider router={Router} >
+        </RouterProvider>
 
     </>
   )
