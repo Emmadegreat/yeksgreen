@@ -12,7 +12,7 @@ const DesktopHero = () => {
         "https://res.cloudinary.com/dbnxbly1r/image/upload/v1716882782/hyggex/yeksgreen/hero-slide1_hnobiy.png",
         "https://res.cloudinary.com/dbnxbly1r/image/upload/v1716402736/hyggex/yeksgreen/slide2_gmpcgc.svg",
         "https://res.cloudinary.com/dbnxbly1r/image/upload/v1716375549/hyggex/yeksgreen/slide3_zs5g5x.svg",
-        "https://res.cloudinary.com/dbnxbly1r/image/upload/v1716402876/hyggex/yeksgreen/slide4_gqwo6d.svg",
+        "https://res.cloudinary.com/dbnxbly1r/image/upload/v1716883387/hyggex/yeksgreen/hero-slide4_cl0uf3.png",
         "https://res.cloudinary.com/dbnxbly1r/image/upload/v1716402993/hyggex/yeksgreen/slide5_uldw8u.svg",
     ];
 
