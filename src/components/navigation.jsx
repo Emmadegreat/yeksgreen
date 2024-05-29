@@ -37,17 +37,18 @@ const Navigation = ({show, dropdown, Showbtn, Closebtn, Showdropdown, Hidedropdo
 
                 <ul className="hidden md:flex items-center space-around  font-[bold]">
                     <li className="px-2 text-[1.3rem]"><Link to="/about">About us</Link></li>
-                    <li className="px-2 text-[1.3rem] cursor-pointer" onClick={Showdropdown}>Recipes</li>
+                    <li className="px-2 text-[1.3rem] cursor-pointer" onClick={Showdropdown} >Recipes</li>
                     <li className="px-2 text-[1.3rem] font-[work-sans]"><Link to="/blog">Blog</Link></li>
 
                     {dropdown &&
-                        <div className='block w-[130px] absolute top-[65px] left-[40%] h-[110px] p-2 rounded bg-white
+                        <div className='w-[130px] absolute top-[65px] left-[40%] h-[110px] p-2 rounded bg-white
                         text-[#000] transition-all duration-1000 ease-in-out overflow-hidden shadow-md'
                             style={{ boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)' }}
+                            onMouseLeave={Hidedropdown}
                         >
-                            <li className="mb-0 hover:bg-[#f2f2f2] opacity-[0.9] py-1" onClick={Hidedropdown}><Link className="px-2" to="/breakfast">Breakfast</Link></li>
-                            <li className="mb-0 hover:bg-[#f2f2f2] opacity-[0.9] py-1" onClick={Hidedropdown}><Link className="px-2" to="/lunch">Lunch</Link></li>
-                            <li className="mb-0 hover:bg-[#f2f2f2] opacity-[0.9] py-1" onClick={Hidedropdown}><Link className="px-2" to="/dinner">Dinner</Link></li>
+                            <li className="mb-0 hover:bg-[#f2f2f2] opacity-[0.9] py-1"><Link onClick={Hidedropdown} className="px-2" to="/breakfast">Breakfast</Link></li>
+                            <li className="mb-0 hover:bg-[#f2f2f2] opacity-[0.9] py-1"><Link onClick={Hidedropdown} className="px-2" to="/lunch">Lunch</Link></li>
+                            <li className="mb-0 hover:bg-[#f2f2f2] opacity-[0.9] py-1"><Link onClick={Hidedropdown} className="px-2" to="/dinner">Dinner</Link></li>
 
                         </div>
                     }
@@ -78,11 +79,12 @@ const Navigation = ({show, dropdown, Showbtn, Closebtn, Showdropdown, Hidedropdo
                         </Link>
                     </div>
                 </div>
-
+                    {/*=======mobile============*/}
                 {show &&
                     <div
-                        className='absolute top-0 left-[-100] delay-200 right-0 flex flex-col w-full h-[100vh]
-                        bg-white pt-4 text-[#000] transfrom transition-transform duration-500'>
+                        className={`absolute top-0 left-0 right-0 flex flex-col w-full h-[100vh]
+                        bg-white pt-4 text-[#000] transition-all duration-1000 ease-in-out overflow-hidden
+                        ${show ? 'translate-x-0' : '-translate-x-full'}`}>
                         <div className='flex justify-between items-center px-6'>
                             <Link to="/">
                                 <img src={logo} alt="logo"
@@ -104,13 +106,14 @@ const Navigation = ({show, dropdown, Showbtn, Closebtn, Showdropdown, Hidedropdo
                             <li className="mb-5 text-[1.3rem] font-[work-sans]"><Link to="/blog" onClick={Closebtn}>Blog</Link></li>
 
                             {dropdown &&
-                                <div className='block w-[140px] absolute top-[200px] left-[5%] h-[110px] p-2 rounded bg-white
+                                <div className='block w-[140px] fixed top-[200px] left-[5%] h-[110px] p-2 rounded bg-white
                                 text-[#000] transition-all duration-1000 ease-in-out overflow-hidden shadow-md'
                                     style={{ boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)' }}
+                                    onMouseLeave={Hidedropdown}
                                 >
-                                    <li className="mb-0 hover:bg-[#f2f2f2] opacity-[0.9] py-1" onClick={Closebtn}><Link className="px-2" to="/breakfast">Breakfast</Link></li>
-                                    <li className="mb-0 hover:bg-[#f2f2f2] opacity-[0.9] py-1" onClick={Closebtn}><Link className="px-2" to="/lunch">Lunch</Link></li>
-                                    <li className="mb-0 hover:bg-[#f2f2f2] opacity-[0.9] py-1" onClick={Closebtn}><Link className="px-2" to="/dinner">Dinner</Link></li>
+                                    <li className="mb-0 hover:bg-[#f2f2f2] opacity-[0.9] py-1" onClick={Closebtn}><Link onClick={Hidedropdown} className="px-2" to="/breakfast">Breakfast</Link></li>
+                                    <li className="mb-0 hover:bg-[#f2f2f2] opacity-[0.9] py-1" onClick={Closebtn}><Link onClick={Hidedropdown} className="px-2" to="/lunch">Lunch</Link></li>
+                                    <li className="mb-0 hover:bg-[#f2f2f2] opacity-[0.9] py-1" onClick={Closebtn}><Link onClick={Hidedropdown} className="px-2" to="/dinner">Dinner</Link></li>
 
                                 </div>
                             }

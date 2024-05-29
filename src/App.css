@@ -90,7 +90,40 @@
 }
 
 
+.dropdown1{
+  background-color: red;
+  position: absolute;
+  display: flex;
+  top: 0;
+  right: 0;
+  left: 50%;
+  overflow: scroll;
+  height: 100vh;
+  transition: 1s ease;
+  transition-duration: all 1s ease-in-out;
+  /*z-index: 1000;
+  overflow: hidden;
+  height: 100vh;
+  transition: 1s ease;
+  transition-duration: all 1s ease;
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
+  */
+}
+
 @media screen and (max-width:767px) {
+  .dropdown2{
+    position: absolute;
+    top: 50px;
+    background: red;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    flex-direction: column;
+  }
+
   .featured-recipes{
     display: grid;
     grid-template-columns: repeat(1, 1fr);

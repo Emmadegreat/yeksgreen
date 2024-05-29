@@ -28,7 +28,7 @@ export const blogimg2 = "https://res.cloudinary.com/dbnxbly1r/image/upload/v1716
 export const blogimg3 = "https://res.cloudinary.com/dbnxbly1r/image/upload/v1716837402/hyggex/yeksgreen/blogimg3_o93p74.svg";
 export const aboutimg = "https://res.cloudinary.com/dbnxbly1r/image/upload/v1716843280/hyggex/yeksgreen/aboutimg_owqp1u.svg";
 export const authimg = "https://res.cloudinary.com/dbnxbly1r/image/upload/v1716868743/auth-image_lsiskw.svg";
-
+export const noodles = "https://res.cloudinary.com/dbnxbly1r/image/upload/v1716917409/hyggex/yeksgreen/noodles_hvrd6y.svg"
 
 
 

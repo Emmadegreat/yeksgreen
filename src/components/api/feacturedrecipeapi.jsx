@@ -11,6 +11,7 @@ import {
     fruit_veggies,
     jollofandbeans,
     jollofrice,
+    noodles,
     okpa_pap,
     pancakes,
     porridge,
@@ -431,7 +432,7 @@ export const LunchApi = [
     },
     {
         'id': 8,
-        'image': dinner1,
+        'image': noodles,
         'name1': 'Noodles',
         'name2': '& Veggies',
         'icon1': '',
@@ -621,7 +622,7 @@ export const DinnerApi = [
     },
     {
         'id': 8,
-        'image': dinner1,
+        'image': noodles,
         'name1': 'Noodles',
         'name2': '& Veggies',
         'icon1': '',
