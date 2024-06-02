@@ -5,7 +5,6 @@ import {
     bottle,
     bowl,
     bread_veggies,
-    dinner1,
     egusisoup,
     fries_egg_sauce,
     fruit_veggies,
