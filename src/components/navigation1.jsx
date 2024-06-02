@@ -131,7 +131,7 @@ const Navigation1 = ({show, dropdown, Showbtn, Closebtn, Showdropdown, Hidedropd
             <nav
                 className='navbar flex flex-row justify-between items-center px-6
                     md:flex md:justify-between fixed w-full h-[80px] md:px-10 bg-white-100 md:items-center z-[2000] text-[#000]
-                    border-red-500 border-2 bg-white'
+                    bg-white'
             >
                 <div className='flex items-center'>
                     <div className="hamburger block md:hidden mr-4" onClick={Showbtn}>
