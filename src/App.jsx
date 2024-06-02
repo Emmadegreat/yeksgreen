@@ -21,26 +21,18 @@ import { useState } from "react"
 function App() {
 
   const [dropdown, setDropdown] = useState(false);
-    const [show, setShow] = useState(false);
+  const [show, setShow] = useState(false);
 
-    const Showbtn = () => setShow(true);
-    const Closebtn = () => setShow(false);
-    const Showdropdown = () => setDropdown(!dropdown);
-    const Hidedropdown = () => setDropdown(false);
+  const Showbtn = () => setShow(true);
+  const Closebtn = () => setShow(false);
+  const Showdropdown = () => setDropdown(!dropdown);
+  const Hidedropdown = () => setDropdown(false);
 
 
 
   return (
     <>
       <Router>
-            <Navigation
-                show={show}
-                dropdown={dropdown}
-                Showbtn={Showbtn}
-                Closebtn={Closebtn}
-                Showdropdown={Showdropdown}
-                Hidedropdown={Hidedropdown}
-            />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />

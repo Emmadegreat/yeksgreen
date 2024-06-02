@@ -1,9 +1,11 @@
 import Footer from "../components/footer"
+import NavRouter1 from "../route/route1"
 import { aboutimg } from "../assets/images/imagelinks"
 
 const About = () => {
     return (
         <section>
+            <NavRouter1/>
             <div className="bg-[#04471C] h-[80px] pt-2 text-[#fff] flex justify-start items-center md:px-10 px-6">
 
                 <div className="flex items-center text-start">

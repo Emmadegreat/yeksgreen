@@ -6,6 +6,7 @@ import FeaturedMobile from "../components/featuredrecipe/featuredmobile"
 import Footer from "../components/footer"
 import MobileHero from "../components/hero/mobilehero"
 import MobileSlider from "../components/mobileslider/mobileslider"
+import NavRouter from '../route/routes';
 import Newsletter from "../components/newsletter/newsletter"
 
 const Home = () => {
@@ -13,6 +14,9 @@ const Home = () => {
 
     return (
         <section className="z-[1000]">
+
+            <NavRouter />
+
             <div className="md:hidden hero px-6 md:px-10">
                 <MobileHero/>
             </div>

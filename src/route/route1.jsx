@@ -1,7 +1,7 @@
-import Navigation from "../components/navigation"
+import Navigation1 from "../components/navigation1"
 import { useState } from "react"
 
-const NavRouter = () => {
+const NavRouter1 = () => {
 
     const [dropdown, setDropdown] = useState(false);
     const [show, setShow] = useState(false);
@@ -13,7 +13,7 @@ const NavRouter = () => {
 
     return (
         <>
-            <Navigation
+            <Navigation1
                 show={show}
                 dropdown={dropdown}
                 Showbtn={Showbtn}
@@ -24,5 +24,5 @@ const NavRouter = () => {
         </>
     )
 }
-export default NavRouter
+export default NavRouter1
 

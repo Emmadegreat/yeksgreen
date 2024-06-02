@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom"
+import NavRouter1 from "../route/route1"
 import { authimg } from "../assets/images/imagelinks"
 
 const Register = () => {
     return (
+        <>
+        <NavRouter1/>
         <section className="md:flex md:flex-row items-center justify-between md:px-10 px-6">
             <div className="basis-[40%] md:block hidden">
                 <img src={authimg} alt="authentication image"  className="h-full w-full"/>
@@ -173,6 +176,7 @@ const Register = () => {
 
             </div>
         </section>
+        </>
     )
 }
 

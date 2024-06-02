@@ -2,11 +2,13 @@ import { blogimg, blogimg2, blogimg3 } from "../assets/images/imagelinks"
 
 import { Directions } from "../components/api/feacturedrecipeapi"
 import Footer from "../components/footer"
+import NavRouter1 from "../route/route1"
 import Newsletter from "../components/newsletter/newsletter"
 
 const Blog = () => {
     return (
         <section>
+            <NavRouter1/>
             <div className="bg-[#04471C] h-[80px] pt-2 text-[#fff] flex justify-between items-center md:px-10 px-6">
                 <div className="flex flex-col text-start">
                     <h4 className="font-[600] text-[1rem] md:text-[1.2rem]"> Jollof Rice & Chicken</h4>
