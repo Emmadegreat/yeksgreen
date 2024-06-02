@@ -1,7 +1,7 @@
 const MobileHero = () => {
     return (
         <div className="md:hidden flex flex-col justify-center pt-8 pb-4">
-            <div className='pt-4 font-[800] text-[70px] text-[#04471C] leading-[80px]'>
+            <div className='pt-4 font-[800] text-[70px] text-[#04471C] leading-[80px] mobile-hero'>
                 <h1>Home for</h1>
                 <h1 className="">healthy Nigerian</h1>
                 <h1>recipes</h1>
