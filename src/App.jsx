@@ -9,26 +9,9 @@ import Dinner from "./pages/dinner"
 import Home from "./pages/home"
 import Login from "./pages/login"
 import Lunch from "./pages/lunch"
-import Navigation from './components/navigation'
 import Register from "./pages/register"
-import { useState } from "react"
-
-//import reactLogo from './assets/react.svg'
-//import { RouterProvider } from 'react-router-dom'
-
-//import viteLogo from '/vite.svg'
 
 function App() {
-
-  const [dropdown, setDropdown] = useState(false);
-  const [show, setShow] = useState(false);
-
-  const Showbtn = () => setShow(true);
-  const Closebtn = () => setShow(false);
-  const Showdropdown = () => setDropdown(!dropdown);
-  const Hidedropdown = () => setDropdown(false);
-
-
 
   return (
     <>
