@@ -19,7 +19,9 @@
 .search-input{
   border: 1px solid #fff;
   border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px
+  border-bottom-left-radius: 5px;
+  font-size: 0.2rem;
+
 }
 
 .submit-btn{

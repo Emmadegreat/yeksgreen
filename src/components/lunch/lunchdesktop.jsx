@@ -12,16 +12,6 @@ const LunchDesktop = () => {
                                 <div className="flex items-center">
                                     <span className="font-[600] md:text-[0.8rem]">{item.name1}</span>
                                     <span className="ml-1 font-[600] md:text-[0.8rem]"> {item.name2 }</span>
-                                    {/*index !== 1 && index !== 2 && index !== 5 && (
-                                        <img className="w-[30px] h-[30px]" src={item.icon1} alt="" />
-                                    )}
-
-                                    {index !== 1 && index !== 2 && index !==3 && index !==4 && index !== 5 && (
-                                        <img className="w-[30px] h-[30px]" src={item.icon3} alt="" />
-                                    )}
-                                    {index !== 0 && index !== 1 && index !== 3 && index !== 4 && index !== 5 && (
-                                        <img className="pb-1 w-[27px] h-[27px]" src={item.icon2} alt="" />
-                                    )*/}
                                 </div>
                                 <div>
                                     <svg width="20" height="20" viewBox="0 0 32 32" fill="none"

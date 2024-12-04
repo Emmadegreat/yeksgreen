@@ -66,7 +66,7 @@ const DesktopHero = () => {
                                                 type="search"
                                                 name="search"
                                                 placeholder='Search recipe'
-                                                className='p-2 mt-8 bg-transparent h-[44px] w-[30%] text-white search-input'
+                                                className='p-2 mt-8 bg-transparent h-[44px] text-[16px] w-[30%] text-white search-input'
                                             />
                                             <button
                                                 type="submit"

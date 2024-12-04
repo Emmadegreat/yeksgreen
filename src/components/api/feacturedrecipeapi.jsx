@@ -31,8 +31,6 @@ import plantain_porridge from "../../assets/images/plantain_porridge.svg";
 import spaghetti from "../../assets/images/spaghetti.svg";
 import toasted_bread_tea from "../../assets/images/toastd_bread_tea.svg";
 
-//import fried_yam from "../../assets/images/fried_yam_eggs.svg";
-
 export const FeaturedRecipesDesktop = [
 
     {
